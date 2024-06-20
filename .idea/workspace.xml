@@ -4,13 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70a200f1-c602-4046-900a-ea8a19f300f3" name="Changes" comment="" />
+    <list default="true" id="70a200f1-c602-4046-900a-ea8a19f300f3" name="Changes" comment="initial commit (add dependency)">
+      <change afterPath="$PROJECT_DIR$/src/test/java/PostmanEchoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
@@ -24,11 +40,81 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.PostmanEchoTest.TestPatchRequest_thenStatus200.executor": "Run",
+    "JUnit.PostmanEchoTest.checkStatusCode.executor": "Run",
+    "JUnit.PostmanEchoTest.executor": "Run",
+    "JUnit.PostmanEchoTest.givenArgs_whenGiveArgs_thenStatus200.executor": "Run",
+    "JUnit.PostmanEchoTest.postFormDataRequestTest.executor": "Run",
+    "JUnit.PostmanEchoTest.testGivenRawText_whenGiveRawText_thenStatus200.executor": "Run",
+    "JUnit.PostmanEchoTest.testPostRawText_thenStatus200.executor": "Run",
+    "JUnit.PostmanEchoTest.testPutRequest_thenStatus200.executor": "Run",
+    "JUnit.PostmanEchoTest.testRawTextPost_thenStatus200.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "Lesson__17",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
+  <component name="RunManager" selected="JUnit.PostmanEchoTest">
+    <configuration name="PostmanEchoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Postman_Echo" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PostmanEchoTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PostmanEchoTest.TestPatchRequest_thenStatus200" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Postman_Echo" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PostmanEchoTest" />
+      <option name="METHOD_NAME" value="TestPatchRequest_thenStatus200" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PostmanEchoTest.testPostRawText_thenStatus200" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Postman_Echo" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PostmanEchoTest" />
+      <option name="METHOD_NAME" value="testPostRawText_thenStatus200" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PostmanEchoTest.testPutRequest_thenStatus200" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Postman_Echo" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PostmanEchoTest" />
+      <option name="METHOD_NAME" value="testPutRequest_thenStatus200" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PostmanEchoTest.testRawTextPost_thenStatus200" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Postman_Echo" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PostmanEchoTest" />
+      <option name="METHOD_NAME" value="testRawTextPost_thenStatus200" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.PostmanEchoTest" />
+        <item itemvalue="JUnit.PostmanEchoTest.TestPatchRequest_thenStatus200" />
+        <item itemvalue="JUnit.PostmanEchoTest.testPutRequest_thenStatus200" />
+        <item itemvalue="JUnit.PostmanEchoTest.testPostRawText_thenStatus200" />
+        <item itemvalue="JUnit.PostmanEchoTest.testRawTextPost_thenStatus200" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -38,6 +124,34 @@
       <option name="presentableId" value="Default" />
       <updated>1718886670701</updated>
     </task>
+    <task id="LOCAL-00001" summary="initial commit (add dependency)">
+      <option name="closed" value="true" />
+      <created>1718887090356</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1718887090356</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit (add dependency)" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit (add dependency)" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/PostmanEchoTest.java</url>
+          <line>44</line>
+          <properties class="PostmanEchoTest" method="testPutRequest_thenStatus200">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
